@@ -1,1 +1,11 @@
-test
+Kurzbeschreibung
+
+Wir beabsichtigen einen "shop" auf Basis von XML zu entwerfen. 
+
+Eine komplexe Datenbank, wie man sie aus Shopsysteme (z.B. Mysql) kennt, wird nicht Bestandteil unseres Projektes sein.
+Vielmehr werden wir unseren Waren"Bestand" in einer oder mehreren XML Dokumenten hinterlegen. Dabei werden die Aspekte 
+der Synchronitaet und Asynchronitaet berücksichtigt. 
+
+Grundgedanken sind:
+- Der Shopbesitzer kann seinen Warenbestand direkt (synchron) einspeisen / ändern / löschen. 
+- Es soll eine Art personalisierter Katalog in Form einer Applikation entwickelt werden 
