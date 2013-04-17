@@ -6,6 +6,12 @@ Eine komplexe Datenbank, wie man sie aus Shopsysteme (z.B. Mysql) kennt, wird ni
 Vielmehr werden wir unseren Waren"Bestand" in einer oder mehreren XML Dokumenten hinterlegen. Dabei werden die Aspekte 
 der Synchronitaet und Asynchronitaet berücksichtigt. 
 
-Grundgedanken sind:
+Grundgedanken* sind:
 - Der Shopbesitzer kann seinen Warenbestand direkt (synchron) einspeisen / ändern / löschen. 
+  - ggf. Emails an Abonnenten versenden
 - Es soll eine Art personalisierter Katalog in Form einer Applikation entwickelt werden 
+  - hier trägt der Nutzer seine Interessen(felder) ein 
+  - interessante Angebote werden angezeigt
+  - es besteht die Möglichkeit sich per Email über Angebote informieren zu lassen 
+
+* Wir behalten uns vor die genannten Punkte den Möglichkeiten anzupassen, zu ändern oder zu erweitern.
