@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Lagerbestand>
-  <Ware>
-    <Produktnummer></Produktnummer>
-    <Stückzahl></Stückzahl>
-  </Ware>
+  <Lager name="Nike">
+    <Waren name="Schuhe">
+      <Ware>
+        <Produktname> Nike Runaway </Produktname>
+        <Produktnummer> N-3456-Runaway </Produktnummer>
+        <Stückzahl> 20 </Stückzahl>      
+      </Ware>
+    </Waren>
+    
+    <Waren name="Socken">
+      <Ware>
+        <Produktname> Nike Antitranspirant </Produktname>
+        <Produktnummer> N-567890-Antitranspirant </Produktnummer>
+        <Stückzahl> 100 </Stückzahl>
+      </Ware>
+    </Waren>
+  </Lager>
   <!-- usw. -->
 </Lagerbestand>
