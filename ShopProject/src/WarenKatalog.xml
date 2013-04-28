@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- ROOT -->
 <Waren>
-  <!-- PARENT -->
   <Katalog name="Schuhe"> <!-- Katalog für Schuhwaren :) -->
-    <!-- CHILD -->
     <Ware name="Nike">
-      <!-- SIBLING -->
       <Warenname> Nike Runaway </Warenname>
       <Bild/> <!-- Wird über ein Attribut bereit gestellt -->
       <Beschreibung> Hier entsteht ein Freitext für die Produktbeschreibung </Beschreibung>
       <Stückzahl/> <!-- Wird über ein Attribut bereit gestellt -->
       <Produktnummer/> <!-- Wird über ein Attribut bereit gestellt -->
-    </Ware>
-    <!-- usw. -->
+    </Ware>   
   </Katalog>
-  <!-- PARENT -->
+  
   <Katalog name="Socken"> <!-- Katalog für Socken :) -->
-    <!-- CHILD -->
     <Ware name="Nike">
-      <!-- SIBLING -->
       <Warenname> Nike Antiperspiration </Warenname>
       <Bild/> <!-- Wird über ein Attribut bereit gestellt -->
       <Beschreibung> Hier entsteht ein Freitext für die Produktbeschreibung </Beschreibung>
