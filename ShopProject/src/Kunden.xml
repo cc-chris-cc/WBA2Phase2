@@ -5,30 +5,30 @@
   <!-- PARENT -->
   <Kunde>
     <!-- CHILD -->
-    <Anrede></Anrede>
-    <Titel></Titel>
-    <Vorname></Vorname>
-    <Name></Name>
-    <Geburtstag></Geburtstag>
+    <Anrede> Herr </Anrede>
+    <Titel> - </Titel>
+    <Vorname> John </Vorname>
+    <Name> Doe </Name>
+    <Geburtstag> 13.04.1975 </Geburtstag>
     <Wohnort>
       <!-- SIBLING -->
-      <Strasse></Strasse>
-      <Hausnummer></Hausnummer>
-      <Postleitzahl></Postleitzahl>
-      <Ort></Ort>
-      <Bundesland></Bundesland>
+      <Strasse> Johny Walker Street</Strasse>
+      <Hausnummer> 154 </Hausnummer>
+      <Postleitzahl> 51643 </Postleitzahl>
+      <Ort> Gummersbach </Ort>
+      <Bundesland> Nordrhein-Westfalen </Bundesland>
     </Wohnort>
     <!-- CHILD -->
     <Kontaktdaten>
       <!-- SIBLING -->
-      <Email></Email>
+      <Email> john@doe.org </Email>
       <Telefon>
-        <Privat></Privat>
-        <Geschäftlich></Geschäftlich>
-        <Mobil></Mobil>
+        <Privat> 02421 - 000000 </Privat>
+        <Geschäftlich> 02421 - 000000 </Geschäftlich>
+        <Mobil> 0171 - 00000000 </Mobil>
       </Telefon>
     </Kontaktdaten>
-    <Kundennummer></Kundennummer>
+    <Kundennummer> JD-1234567890 </Kundennummer>
   </Kunde>
   <!-- usw. -->
 </Kunden>
