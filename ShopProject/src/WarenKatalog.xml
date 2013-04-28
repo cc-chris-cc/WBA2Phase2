@@ -13,7 +13,7 @@
   
   <Katalog name="Socken"> <!-- Katalog für Socken :) -->
     <Ware name="Nike">
-      <Warenname> Nike Antiperspiration </Warenname>
+      <Warenname> Nike Antitranspirant </Warenname>
       <Bild/> <!-- Wird über ein Attribut bereit gestellt -->
       <Beschreibung> Hier entsteht ein Freitext für die Produktbeschreibung </Beschreibung>
       <Stückzahl/> <!-- Wird über ein Attribut bereit gestellt -->
