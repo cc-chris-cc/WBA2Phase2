@@ -7,7 +7,7 @@
     <!-- CHILD -->
     <Ware>
       <!-- SIBLING -->
-      <Name/> <!-- Wird über ein Attribut bereit gestellt -->
+      <Warenname></Warenname>
       <Bild/> <!-- Wird über ein Attribut bereit gestellt -->
       <Beschreibung> Hier entsteht ein Freitext für die Produktbeschreibung </Beschreibung>
       <Stückzahl/> <!-- Wird über ein Attribut bereit gestellt -->
