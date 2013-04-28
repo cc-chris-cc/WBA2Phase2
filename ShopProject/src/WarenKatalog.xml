@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ROOT -->
+<Waren>
+  <!-- PARENT -->
+  <Katalog>
+    <!-- CHILD -->
+    <Ware>
+      <!-- SIBLING -->
+      <Name/>
+      <Bild/> <!-- Wird über ein Attribut bereit gestellt -->
+      <Beschreibung> Hier entsteht ein Freitext für die Produktbeschreibung </Beschreibung>
+      <Stückzahl/> <!-- Wird über ein Attribut bereit gestellt -->
+      <Produktnummer/>
+    </Ware>
+    <Ware>
+      <Name/>
+      <Bild/>
+      <Beschreibung> Hier entsteht ein Freitext für die Produktbeschreibung </Beschreibung>
+      <Stückzahl/>
+      <Produktnummer/>
+    </Ware>
+    <!-- usw. -->
+  </Katalog>
+</Waren>

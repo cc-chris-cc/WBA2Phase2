@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ROOT -->
+<Kunden>
+  <!-- PARENT -->
+  <Kunde>
+    <!-- CHILD -->
+    <Anrede></Anrede>
+    <Titel></Titel>
+    <Vorname></Vorname>
+    <Name></Name>
+    <Geburtstag></Geburtstag>
+    <Wohnort>
+      <!-- SIBLING -->
+      <Strasse></Strasse>
+      <Hausnummer></Hausnummer>
+      <Postleitzahl></Postleitzahl>
+      <Ort></Ort>
+      <Bundesland></Bundesland>
+    </Wohnort>
+    <!-- CHILD -->
+    <Kontaktdaten>
+      <!-- SIBLING -->
+      <Email></Email>
+      <Telefon>
+        <Privat></Privat>
+        <Geschäftlich></Geschäftlich>
+        <Mobil></Mobil>
+      </Telefon>
+    </Kontaktdaten>
+    <Kundennummer></Kundennummer>
+  </Kunde>
+  <!-- usw. -->
+</Kunden>
