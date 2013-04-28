@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Kunden">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Kunde"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Kunde">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Anrede"/>
+        <xs:element ref="Titel"/>
+        <xs:element ref="Vorname"/>
+        <xs:element ref="Name"/>
+        <xs:element ref="Geburtstag"/>
+        <xs:element ref="Wohnort"/>
+        <xs:element ref="Kontaktdaten"/>
+        <xs:element ref="Kundennummer"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Anrede" type="xs:NCName"/>
+  <xs:element name="Titel" type="xs:NCName"/>
+  <xs:element name="Vorname" type="xs:NCName"/>
+  <xs:element name="Name" type="xs:NCName"/>
+  <xs:element name="Geburtstag" type="xs:NMTOKEN"/>
+  <xs:element name="Wohnort">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Strasse"/>
+        <xs:element ref="Hausnummer"/>
+        <xs:element ref="Postleitzahl"/>
+        <xs:element ref="Ort"/>
+        <xs:element ref="Bundesland"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Strasse" type="xs:string"/>
+  <xs:element name="Hausnummer" type="xs:integer"/>
+  <xs:element name="Postleitzahl" type="xs:integer"/>
+  <xs:element name="Ort" type="xs:NCName"/>
+  <xs:element name="Bundesland" type="xs:NCName"/>
+  <xs:element name="Kontaktdaten">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Email"/>
+        <xs:element ref="Telefon"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Email" type="xs:string"/>
+  <xs:element name="Telefon">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Privat"/>
+        <xs:element ref="Geschäftlich"/>
+        <xs:element ref="Mobil"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Privat" type="xs:string"/>
+  <xs:element name="Geschäftlich" type="xs:string"/>
+  <xs:element name="Mobil" type="xs:string"/>
+  <xs:element name="Kundennummer" type="xs:NCName"/>
+</xs:schema>

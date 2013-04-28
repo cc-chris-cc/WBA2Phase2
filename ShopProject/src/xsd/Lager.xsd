@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Lagerbestand">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Lager"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Lager">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Waren"/>
+      </xs:sequence>
+      <xs:attribute name="name" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Waren">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Ware"/>
+      </xs:sequence>
+      <xs:attribute name="name" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Ware">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Produktname"/>
+        <xs:element ref="Produktnummer"/>
+        <xs:element ref="Stückzahl"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Produktname" type="xs:string"/>
+  <xs:element name="Produktnummer" type="xs:NCName"/>
+  <xs:element name="Stückzahl" type="xs:integer"/>
+</xs:schema>
