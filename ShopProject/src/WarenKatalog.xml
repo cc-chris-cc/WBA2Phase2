@@ -19,6 +19,6 @@
       <Stückzahl/> <!-- Wird über ein Attribut bereit gestellt -->
       <Produktnummer/> <!-- Wird über ein Attribut bereit gestellt -->
     </Ware>
-    <!-- usw. -->
   </Katalog>
+  <!-- usw. -->
 </Waren>
