@@ -6,7 +6,7 @@
   <Kunde>
     <!-- CHILD -->
     <Anrede> Herr </Anrede>
-    <Titel> - </Titel>
+    <Titel> Dr. </Titel>
     <Vorname> John </Vorname>
     <Name> Doe </Name>
     <Geburtstag> 13.04.1975 </Geburtstag>
